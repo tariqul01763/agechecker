@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Checker</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <section class="banner-section">
+    <div class="container">
+      <div class="hero-banner">
+        <h1>Assignment One</h1>
+        <p>
+          Age Checker is the go-to solution for businesses and services striving to maintain a responsible and compliant approach to age verification. 
+        </p>
+      </div>
+    </div>
+  </section>
+<div class="agecheck">
+  <h1>Age Checker</h1>
+
+  <label for="ageInput">Enter your age:</label>
+  <input type="number" id="ageInput" placeholder="Enter your age">
+
+  <button onclick="checkAge()">Check Age</button>
+
+</div>
+
+
+  <div id="resultCard">
+    <div id="adultCard">
+        
+        <div class="card" style="width: 18rem;">
+            <img src="./images/adult.jpg" class="card-img-top" alt="Adult">
+            <div class="card-body">
+              <h5 class="card-title">Adult</h5>
+              <p class="card-text">For see content enter your age inside this field :-
+              </p>
+            </div>
+          </div>
+
+    </div>
+
+
+    <div id="childCard">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/child.jpg" class="card-img-top" alt="Child">
+            <div class="card-body">
+              <h5 class="card-title">Child</h5>
+              <p class="card-text">For see content enter your age inside this field :</p>
+            </div>
+          </div>
+
+    </div>
+    <div id="alertMsg">
+      <div class="card" style="width: 18rem;">
+          <img src="./images/alertMsg.jpg" class="card-img-top" alt="Child">
+          <div class="card-body">
+            <h5 class="card-title">Please enter a valid age!</h5>
+            <p class="card-text">Please ensure that the field is not empty and contains at least one value.</p>
+          </div>
+        </div>
+
+  </div>
+
+
+
+  </div>
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="./js/script.js"></script>
+  <script>
+   
+  </script>
+
+  
+
+
+
+</body>
+</html>

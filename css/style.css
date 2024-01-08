@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Open+Sans:wght@500&family=Roboto+Condensed&family=Roboto+Mono&family=Tektur&display=swap');
+.banner-section {
+    height: 70vh;
+    background-image: url("../images/slider1.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 5, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+  }
+ h1 {
+    font-family: 'Tektur', sans-serif;
+
+}
+::placeholder {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: #888; /* Adjust the color of the placeholder text */
+}
+ p, label, placeholder {
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+}
+.hero-banner h1, p{
+    color: antiquewhite;
+}
+.hero-banner h1, p{
+    font-size: 57px;
+
+}
+.hero-banner p{
+    font-size: 17px;
+}
+.agecheck{
+    padding: 50px 0px;
+}
+input{
+    border: 2px solid #e1d8d8;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+button{
+    border: 2px solid #e1d8d8;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    background: #000000;
+    color: #fcfcfc;
+}
+p.card-text {
+    font-size: 15px;
+    color: #333;
+}
+body {
+    text-align: center;
+  }
+
+  #resultCard {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  #adultCard {
+    color: green;
+    
+  }
+
+  #childCard {
+    color: red;
+  }
